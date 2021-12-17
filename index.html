@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+ 
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+
+  <title>Hospital Perrando</title>
+  <link rel="shortcut icon" href="icono.png">
+ 
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-xl">
+      <a class="navbar-brand" href="#">
+        <img src="marca.png" alt="http://127.0.0.1:5500/index.html" width="20%" height="60%">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+      </div>
+  </nav>
+
+
+
+
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-xl">
+      <a class="navbar-brand" href="#">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><strong>Inicio</a></strong>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+              aria-expanded="false">Historia</a>
+          </li>
+          
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+              aria-expanded="false"><strong>Institución</a></strong>
+              <li class="nav-item">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                  aria-expanded="false">Investigacion y docencia</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                  aria-expanded="false"><strong>Turnos</a></strong>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Clinico</a>
+              <a class="dropdown-item" href="#">Kinesiologia</a>
+              <a class="dropdown-item" href="#">Traumatologia</a>
+           </div>
+          </li>
+      </div>
+  </nav>
+
+
+  <div class="container.row">
+    <div class="row">
+      <div class="col-md-5">
+
+
+    
+        <h1 class="TituloPortada"> SI SOS MÉDICO RESIDENTE . . . .  </h1>
+
+        <blockquote>
+          <p class="parrafoportada"> <i>TU MOMENTO ES AHORA</i> ,<i><strong> ¡FORMA PARTE DEL EQUIPO! </strong></i>
+        
+          </p>
+        </blockquote>
+        <p></p>
+
+    
+        <button type="button" onclick="mostrarFormulario();" class="btn btn-light btn1"><strong>¡POSTULATE!</strong></button>
+        <div class="form">
+          <form id="formulario">
+
+            <input class="form control" type="email" name="e-mail" size="40" placeholder="Ingrese su Email">
+            <input class="form control"  type="password" name="contrasena" size="40" placeholder="Ingrese su Contraseña">
+
+            <input type="submit" onclick="mostrarRegistro();" class="btn btn-light btn2" value="Registrarme">
+
+          </form>
+     
+        </div>
+      </div>
+
+      
+    </div>
+  </div>
+  
+  
+  </br>
+ <h2 class="tituloServicios"> <strong> Servicios </strong> </h2>
+
+ 
+
+  <div class="container-sm" class="carousel center-align">
+    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img class="imgCarousel" src="1.jpg" class="d-block w-50" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+
+            <p class="tituloCarousel"> <strong> Contamos con los mejores </strong> </p>
+            <ol class="listaCarousel">
+               Clinicos,
+               Kinesiologos,
+              Traumatologos,
+            <i><strong>y muchas mas especialidades </strong></i>
+            </ol>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img class="imgCarousel" src="buena CMYK.png" class="d-block w-50" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p class="tituloCarousel"> <strong> ¿Donde nos encontramos? </strong> </p>
+            <ol class="listaCarousel">
+            El Hospital Perrando está  emplazado en un área de 7 hectáreas, situadas a 1 km. de distancia de la plaza principal de la  ciudad de Resistencia por Av 9 de Julio. </li>
+             
+            </ol>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img class="imgCarousel" src="3.JPG" class="d-block w-50" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <p class="tituloCarousel"> <strong> seguimos de cerca tu caso </strong> </p>
+            <ol class="listaCarousel">
+             Profesionales a tu disposicion para brindarte la mejor atención siempre
+            </ol>
+          </div>
+        </div>
+
+        
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  
+ 
+  
+  <div class="Herramientas">
+    <h3 class="tituloHerramientas"> <strong> Nos encontramos en </strong> </h3>
+    <p class="descripcionHerramientas"> 
+        
+    </p>
+
+    <div class="flex-container">
+
+      <div class="flex-imgVector">
+        <div img class="imgVector">
+          <a href="whatsapp"><img src="whatsapp.png" class="imgVector"></a>
+        </div>
+      </div>
+
+      <div class="flex">
+        <div img class="imgVector">
+          <a href="https://www.facebook.com/"><img src="facebook.png" class="imgVector">
+          </a>
+        </div>
+      </div>
+      
+      <div class="flex">
+        <div img class="imgVector">
+          <a href="https://twitter.com/"><img src="twitter.png" class="imgVector"> </a>
+        </div>
+      </div>
+
+
+      <div class="flex-imgVector">
+        <div img class="imgVector">
+          <a href="https://github.com/"><img src="githup.png" class="imgVector"></a>
+        </div>
+      </div>
+
+      
+
+    </div>
+  </div>
+  
+  </br></br></br></br></br></br></br></br></br></br></br>
+  
+  
+ 
+  <div class="caja1">
+    <h5 class="cont-titulo4"><strong> - </strong> Hospital Perrando | 9 de Julio | Resistencia Chaco |  <strong> - </strong></h4>
+    
+   
+  
+     
+ 
+  
+   
+
+
+
+
+
+
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  
+
+</body>
+
+
+</html>

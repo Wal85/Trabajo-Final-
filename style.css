@@ -1,0 +1,233 @@
+
+.navbar-expand-lg{
+
+    background-color: #f0f0f0;
+    font-size: 17px;
+    width: 100%;
+
+ 
+   
+}
+
+.nav-link{
+    color: rgb(0, 0, 0);
+    width: 100%;
+    
+}
+
+.false{
+    color: rgb(219, 199, 199);
+    width: 100%;
+}
+
+
+
+.container.row {
+    
+    max-width: 75em;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+   }
+
+ .row {
+     background-color: #0d796a;
+     background-image:url("nuevo.png");
+     padding-left: 140px;
+     padding-right: 30px;
+     display:flex;
+     
+     
+      }  
+
+
+ .TituloPortada {
+    margin-top: 100px;
+    margin-left: 10px;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    width: 100%;
+    font-weight: 800;
+    display: flex;
+
+ 
+}
+
+ .parrafoportada { 
+   color: white;
+   margin-left: 10px;
+   text-align: justify;
+   font-size: 16px flex;
+   width:100%; 
+   height: auto;
+   flex: auto;
+}
+
+ 
+
+
+
+.btn1{
+    margin-top: 0px;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+   color: #088570;
+   border-radius: 5px;
+}
+
+.form{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#formulario{
+    padding-top: 10px;
+    padding-left: 30px;
+    Margin: 10px;
+    border-radius: 30px;
+    display: none;
+    width: 100%; 
+
+    }
+    input{
+    background-color: white; opacity: 0.7;
+    border-color: white;
+    margin-top: 10px;
+       
+    }
+
+.btn2{
+    margin-top: 10px;
+    margin-left: 2%;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-color: rgb(121, 11, 11);
+    background-color: transparent;
+
+}
+
+.tituloServicios{
+    margin-top: 70px;
+    padding-bottom: 50px;
+    color: #ffffff;
+    font-family: "Helvetica Neue" sans-serif bold;
+    font-size: 5vw;
+    text-align: center;
+    background-color: darkgray;
+}
+
+.tituloCarousel{
+    padding-top: 100px;
+    padding-left: 40%;
+    color: #3F4242;
+    font-family: "Roboto"sans-serif bold;
+    font-size: 20px; 
+    text-align: center;
+    
+  
+} 
+
+
+.listaCarousel{
+    color: #3F4242;
+    font-family: Helvetica, sans-serif;
+    text-align: left;
+    padding-left: 60%;
+    font-size: 16px;
+    margin: 10px;
+    
+}
+
+.imgCarousel{
+    transition: all 1s linear;
+    width: 50%;
+    
+    }
+
+.imgCarousel:hover{
+ transform: scale(0.9);
+}
+
+
+
+.tituloHerramientas {
+    margin-top: 70px; 
+    padding-bottom: 20px;
+    color: #ffffff;
+    font-family: "Helvetica Neue" sans-serif bold;
+    font-size: 4vw;
+    text-align: center;
+    background-color: #1ebea9;
+}
+.descripcionHerramientas {
+    margin-top: 1px;
+    margin-left: 25%;
+    width: 50%;
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 0%;
+ 
+}
+
+.flex-container div{
+    background-color: white;
+    width: 100px;
+    margin: 35px;
+    margin-bottom: 10px;
+    
+}
+
+.imgVector {
+    width: 100%;
+    padding-left:0%;
+    flex-wrap: nowrap;
+    
+}
+
+.imgVector:hover{
+    animation-name: rotarIcono;
+    animation-duration: 5s;
+    animation-direction: alternate;
+}
+ @keyframes rotarIcono{
+    to {
+         transform: rotateY(360deg)
+    
+     }
+    }
+
+    .caja1{
+        padding-top: 70px;
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 100px;    
+        text-align: center;
+    }
+   
+    .cont1-flex{
+        display: flex;
+        justify-content:center;
+        padding-left: 46%;
+        max-width: 540px;
+        flex-wrap: wrap;
+    }
+   
+    
+
+      .cont-titulo4{
+          font-size: 18px;
+      }
+      
+    
+     
